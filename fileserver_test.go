@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego/httplib"
 	"github.com/eventials/go-tus"
+	"github.com/sjqzhang/goutil"
 	"io/ioutil"
 	_ "net/http/pprof"
 	"os"
@@ -18,9 +19,9 @@ const (
 	CONST_DOWNLOAD_SMALL_FILE_NAME = "small_dowload.txt"
 )
 
-var testUtil = Common{}
+var testUtil = goutil.Common{}
 
-var endPoint = "http://127.0.0.1:8080"
+var endPoint = "http://127.0.0.1:8080/group1"
 var endPoint2 = ""
 
 var testCfg *GloablConfig
@@ -204,9 +205,9 @@ func testCommon(t *testing.T) {
 
 func testCommonMap(t *testing.T) {
 	var (
-		commonMap *CommonMap
+		commonMap *goutil.CommonMap
 	)
-	commonMap = NewCommonMap(1)
+	commonMap = goutil.NewCommonMap(1)
 	commonMap.AddUniq("1")
 	//if len(commonMap.Keys()) != 1 {
 	//	t.Error("testCommonMap fail")
@@ -248,7 +249,9 @@ func testApis(t *testing.T) {
 
 	apis := []string{"/index","/status", "/stat", "/repair?force=1", "/repair_stat",
 	"/sync?force=1&date=" + testUtil.GetToDay(),"/delete?md5="+testSmallFileMd5,
-	"/repair_fileinfo",""}
+	"/repair_fileinfo","","/list_dir","/gen_google_code?secret=N7IET373HB2C5M6D",
+	"/gen_google_secret","/receive_md5s?md5s=xx","/remove_empty_dir","/backup","/search?kw=ab",
+	"/reload=get","/back","/report"}
 	for _, v := range apis {
 		req := httplib.Get(endPoint + v)
 		req.SetTimeout(time.Second*2, time.Second*3)

@@ -52,10 +52,34 @@
 			"revisionTime": "2018-10-20T12:00:34Z"
 		},
 		{
+			"checksumSHA1": "YImPVNZRCKOaaReWnFEH+AaP8NM=",
+			"path": "github.com/fsnotify/fsnotify",
+			"revision": "1485a34d5d5723fea214f5710708e19a831720e4",
+			"revisionTime": "2019-03-12T18:14:46Z"
+		},
+		{
+			"checksumSHA1": "2UmMbNHc8FBr98mJFN1k8ISOIHk=",
+			"path": "github.com/garyburd/redigo/internal",
+			"revision": "569eae59ada904ea8db7a225c2b47165af08735a",
+			"revisionTime": "2018-04-04T16:07:26Z"
+		},
+		{
+			"checksumSHA1": "3kM5bMyfqvdCfgQdOb01CR1aA74=",
+			"path": "github.com/garyburd/redigo/redis",
+			"revision": "569eae59ada904ea8db7a225c2b47165af08735a",
+			"revisionTime": "2018-04-04T16:07:26Z"
+		},
+		{
 			"checksumSHA1": "h1d2lPZf6j2dW/mIqVnd1RdykDo=",
 			"path": "github.com/golang/snappy",
 			"revision": "2e65f85255dbc3072edf28d6b5b8efc472979f5a",
 			"revisionTime": "2018-05-18T05:39:59Z"
+		},
+		{
+			"checksumSHA1": "ZxzYc1JwJ3U6kZbw/KGuPko5lSY=",
+			"path": "github.com/howeyc/fsnotify",
+			"revision": "f0c08ee9c60704c1879025f2ae0ff3e000082c13",
+			"revisionTime": "2015-10-03T19:46:02Z"
 		},
 		{
 			"checksumSHA1": "560N9bAl499wgyMi2Xt1rh1zUFY=",
@@ -70,10 +94,40 @@
 			"revisionTime": "2018-02-21T19:10:11Z"
 		},
 		{
+			"checksumSHA1": "Crg+PtCi5YDq7UNP5JzeE8K1uY8=",
+			"path": "github.com/radovskyb/watcher",
+			"revision": "f5989f8deca223d590d5a130c77ea375fe9fde30",
+			"revisionTime": "2019-08-17T01:08:44Z"
+		},
+		{
+			"checksumSHA1": "+RMC2cBWVNub+0bRy00OItOhfGA=",
+			"path": "github.com/shirou/gopsutil/disk",
+			"revision": "1c09419d4b1c4c19e06d9f48b9406bda27d32acd",
+			"revisionTime": "2019-10-01T14:50:21Z"
+		},
+		{
+			"checksumSHA1": "+iFA/hHmdWehBFBa3uAetswSoug=",
+			"path": "github.com/shirou/gopsutil/internal/common",
+			"revision": "1c09419d4b1c4c19e06d9f48b9406bda27d32acd",
+			"revisionTime": "2019-10-01T14:50:21Z"
+		},
+		{
+			"checksumSHA1": "Vk/BsSvr/O9VM7T5EnEgwEb1eGk=",
+			"path": "github.com/shirou/gopsutil/mem",
+			"revision": "1c09419d4b1c4c19e06d9f48b9406bda27d32acd",
+			"revisionTime": "2019-10-01T14:50:21Z"
+		},
+		{
 			"checksumSHA1": "kYRQcthIIU5NEqwba/Jfve+1myw=",
 			"path": "github.com/sjqzhang/googleAuthenticator",
 			"revision": "f198f070e0b1c610476cd4af49f75cb861900208",
 			"revisionTime": "2016-09-26T06:27:37Z"
+		},
+		{
+			"checksumSHA1": "nVwF6FoQFomB+r6lWlFY2yxY/0w=",
+			"path": "github.com/sjqzhang/goutil",
+			"revision": "6e5f468b7d51a8cb8bfb07d6a69105349d19e20e",
+			"revisionTime": "2019-05-11T16:05:04Z"
 		},
 		{
 			"checksumSHA1": "A05sgnmxGZEtfibmzpOCAfluL9s=",
@@ -172,6 +226,18 @@
 			"revisionTime": "2018-11-28T10:09:59Z"
 		},
 		{
+			"checksumSHA1": "k087lZ6MdivI/6AFgpEv4zxhaVw=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "4c4f7f33c9ed00de01c4c741d2177abfcfe19307",
+			"revisionTime": "2019-05-25T10:09:16Z"
+		},
+		{
+			"checksumSHA1": "iyJEk/BCNtHvW497IPtPUP0NcHo=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "4c4f7f33c9ed00de01c4c741d2177abfcfe19307",
+			"revisionTime": "2019-05-25T10:09:16Z"
+		},
+		{
 			"checksumSHA1": "6Vsts4Te6U9W5/bfhQtVlHAWxws=",
 			"origin": "github.com/sjqzhang/tusd/vendor/gopkg.in/Acconut/lockfile.v1",
 			"path": "gopkg.in/Acconut/lockfile.v1",
@@ -186,5 +252,5 @@
 			"revisionTime": "2018-11-30T13:54:26Z"
 		}
 	],
-	"rootPath": "github.com/sjqzhang/FileServer"
+	"rootPath": "github.com/sjqzhang/fileserver"
 }
